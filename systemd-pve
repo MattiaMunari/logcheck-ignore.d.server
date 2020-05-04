@@ -1,0 +1,4 @@
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: pvesr.service: Succeeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Failed to read PID from file /run/nginx\.pid: Invalid argument$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: ((Start|Stopp)ing) (A high performance web server and a reverse proxy server|Device-mapper event daemon|Exit the Session)\.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(access for web browsers\).

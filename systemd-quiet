@@ -1,0 +1,18 @@
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: Time has been changed$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: [-_[:alnum:]]+.timer: Adding ([0-9]+h )?([0-9]{1,2}min )?[0-9]{1,3}\.[0-9]{3,6}m?s random time\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd: pam_unix\(systemd-user:session\): session (opened|closed) for user [^[:space:]]+( by \(uid=[0-9]+\))?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Startup finished in [[:digit:]]+ms\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Start(ing|ed) ((Daily )?Cleanup of Temporary Directories|Device-mapper event daemon|Hostname Service)\.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Time has been changed$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Starting|Created|Stopping|Removed)( slice)? (user|system)-[\\[:alnum:]]+\.slice\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Start|Listen)ing (on )?(CUPS Printing Service Sockets|Device-mapper event daemon FIFOs)\.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Start|Stopp)(ing|ed) (Authenticate and Authorize Users to Run Privileged Tasks|Daemon for power management|PackageKit Daemon|RealtimeKit Scheduling Policy Service|User Manager for UID [0-9]+)\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: ((Reached|Stopped) target|((Start|Stopp)ing)) (Basic System|Default|Encrypted Volumes|Graphical Interface|Local File Systems( \(Pre\))?|Login Prompts|Mail Transport Agent|Multi-User System|Network|Network is Online|Paths|Remote File Systems|RPC Port Mapper|Shutdown|Sockets|Sound Card|Swap|System Initialization|Timers)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Start(ed|ing)|Stopping) (CUPS Printing Service|Disk Manager|Session [[:digit:]]+ of user [^ ]+)\.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Created slice User Slice of UID [[:digit:]]+.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: apt-daily(|-upgrade).service: Succeeded.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: systemd-tmpfiles-clean.service: Succeeded.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Started|Starting) Daily man-db regeneration[.]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: logrotate.service: Succeeded.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: man-db.service: Succeeded.
