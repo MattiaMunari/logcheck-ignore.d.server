@@ -16,6 +16,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ qm\[[0-9]+\]: <root@pam> update VM [[:digit:]]+: \-lock backup$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: starting new backup job: vzdump [ [:digit:]]+ --mode (snapshot|stop|suspend) --mailnotification (always|fail) --fullbackup [[:digit:]]+ --mailto [@._[:alnum:]\-]+ --storage [._[:alnum:]\-]+ --quiet (0|1) --compress (gzip|lzo) --maxfiles [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: starting new backup job: vzdump [ [:digit:]]+ --mailnotification (always|fail) --quiet (0|1) --mode (snapshot|stop|suspend) --maxfiles [[:alnum:]]+ --storage [._[:alnum:]\-]+ --compress (gzip|lzo) --fullbackup [[:digit:]]+ --mailto [@._[:alnum:]\-]+$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: starting new backup job: vzdump [ [:digit:]]+ --mode (snapshot|stop|suspend) --mailnotification (always|fail) --compress (gzip|lzo) --fullbackup [[:digit:]]+ --maxfiles [[:alnum:]]+ --quiet (0|1) --storage [._[:alnum:]\-]+ --mailto [@._[:alnum:]\-]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pvefw-logger\[[0-9]+\]: received terminate request \(signal\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pvefw-logger\[[0-9]+\]: (starting|stopping) pvefw logger$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: pvefw-logger.service: Succeeded.$
