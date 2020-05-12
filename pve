@@ -8,8 +8,8 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pvestatd\[[0-9]+\]: auth key pair too old, rotating..$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: Finished Backup of VM [0-9]+ \([:[:digit:]]{8}\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: Backup job finished successfully$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: <root@pam> (starting|end) task UPID:[@:[:alnum:]]+( OK|)$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pveupdate\[[0-9]+\]: <root@pam> (starting|end) task UPID:[@:[:alnum:]]+( OK|)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: <root@pam> (starting|end) task UPID:[@-:[:alnum:]]+( OK|)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pveupdate\[[0-9]+\]: <root@pam> (starting|end) task UPID:[@-:[:alnum:]]+( OK|)$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pveupdate\[[0-9]+\]: update new package list: /var/lib/pve-manager/pkgupdates$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: pve-daily-update.service: Succeeded.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ vzdump\[[0-9]+\]: INFO: Starting Backup of VM [0-9]+ \(qemu\)$
