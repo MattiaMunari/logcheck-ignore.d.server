@@ -2,3 +2,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Failed to read PID from file /run/nginx\.pid: Invalid argument$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: ((Start|Stopp)ing) (A high performance web server and a reverse proxy server|Device-mapper event daemon|Exit the Session)\.*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(access for web browsers\).
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Reload(ing|ed) PVE (API|SPICE) Proxy Server\.$
+May 13 00:00:06 pve6-1 systemd[1]: Reloaded PVE API Proxy Server.
+May 13 00:00:06 pve6-1 systemd[1]: Reloading PVE SPICE Proxy Server.

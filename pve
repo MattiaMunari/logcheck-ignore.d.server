@@ -21,3 +21,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pvestatd\[[0-9]+\]: status update time \([.[:digit:]]+ seconds\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pvestatd\[[0-9]+\]: auth key new enough, skipping rotation$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ pmxcfs\[[[:digit:]]+\]: \[(status|dcdb)\] notice: (received log|data verification successful)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ (pveproxy|spiceproxy)\[[[:digit:]]+\]: (send|received signal) HUP( to [[:digit:]]+|)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ (pveproxy|spiceproxy)\[[[:digit:]]+\]: (|restarting |starting )[[:digit:]]*(|server|worker | worker\(s\))[[:digit:]]*(| started| closing| finished|exit| shutdown \(restart\))$
+
